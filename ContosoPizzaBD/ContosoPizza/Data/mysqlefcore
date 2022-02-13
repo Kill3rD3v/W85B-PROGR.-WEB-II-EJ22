@@ -1,0 +1,15 @@
+namespace mysqlefcore
+{
+  public class pizzas
+  {
+    public string nombre { get; set; }
+    public string ingredientes { get; set; }
+    public int calorias  { get; set; }
+  }
+
+  public class salsas
+  {
+    public int ID { get; set; }
+    public string nombre { get; set; }
+  }
+}
